@@ -1,0 +1,27 @@
+.name{
+    font-size: 46px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.card{
+    display: flex; 
+    align-items: center;
+}
+.card img{
+    width: 40%;
+}
+.card .text2{
+    font-size: 22px;
+
+}
+@media (max-width: 768px){
+    .card img{
+        width: 40%;
+    }
+    .card .text2{
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    
+    }
+}
